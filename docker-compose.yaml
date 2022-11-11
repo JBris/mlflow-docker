@@ -1,0 +1,12 @@
+version: "3.7"
+
+services:
+
+  mlflow:
+    image: "continuumio/miniconda3:${CONDA_TAG}"
+    build: 
+      context: .
+      args:
+        CONDA_TAG: $CONDA_TAG
+        MLFLOW_LABEL: $MLFLOW_LABEL
+        PSYCOPG_LABEL: $PSYCOPG_LABEL
