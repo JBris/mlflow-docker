@@ -1,3 +1,3 @@
 # mlflow-docker
 
-Run MLFlow through Docker
+Launch an MLFlow server through Docker
