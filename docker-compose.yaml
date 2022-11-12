@@ -10,3 +10,5 @@ services:
         CONDA_TAG: $CONDA_TAG
         MLFLOW_LABEL: $MLFLOW_LABEL
         PSYCOPG_LABEL: $PSYCOPG_LABEL
+        BOTO3_LABEL: $BOTO3_LABEL
+        
